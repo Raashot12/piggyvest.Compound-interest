@@ -1,0 +1,180 @@
+@font-face {
+    font-family: "My Futura";
+    src: url("./fonts/futuran.ttf");
+}
+
+@font-face {
+    font-family: "My Futura M";
+    src: url("./fonts/futuram.ttf");
+}
+
+@font-face {
+    font-family: "My Futura B";
+    src: url("./fonts/futurab.ttf");
+}
+
+body {
+    background-image: url(https://blog-assets.hootsuite.com/wp-content/uploads/2019/01/Facebook-pixel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    font-family: "My Futura M", sans-serif;
+}
+
+a {
+    color: unset;
+    text-decoration: unset;
+}
+
+.icon-text {
+    margin-left: 42px;
+    color: teal;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+}
+
+h2 {
+    text-align: center;
+}
+
+main {
+    min-width: 656px;
+    max-width: 768px;
+    margin: auto;
+}
+
+section.tabs {
+    background-color: #8685a5;
+    border-radius: 20px;
+}
+
+section.tabs {
+    padding: 16px;
+    border: solid 1px #b1aec0;
+    border-right: none;
+    border-bottom: none;
+    margin-top: -4px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+div.tab-header {
+    padding: 8px 32px 0 4px;
+    box-sizing: content-box;
+    float: left;
+    background-color: red;
+    border-radius: 6px 6px 6px 0;
+    height: 32px;
+    /* text-align: center; */
+    font-family: "My Futura M", sans-serif;
+    font-weight: 700;
+    color: purple;
+}
+
+div.tab-header.piggyvest-daily-interest {
+    margin-left: -4px;
+}
+
+div.clear-left {
+    clear: left;
+}
+
+p.input-section {
+    width: 200px;
+}
+
+input {
+    width: 130px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: blueviolet;
+    padding: 0 1em;
+    font-size: 15px;
+    border: none;
+}
+
+input::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+label span {
+    font-weight: 600;
+}
+
+p.button-wrap {
+    width: 50%;
+    margin: auto;
+}
+
+button {
+    width: 100%;
+    height: 56px;
+    border: none;
+    background-color: #052c70;
+    border-radius: 1em 1em 1em 0;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+    text-align: center;
+}
+
+button:hover {
+    border: solid #ffffff 1px;
+    cursor: pointer;
+}
+
+button:active {
+    border: none;
+}
+
+p.result {
+    width: calc(100% - (2 * 32px));
+    height: 100px;
+    box-sizing: border-box;
+    border: lightcyan 13px solid;
+    background-color: #117ce7;
+    color: #b1aec0;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    padding: 32px;
+    margin: 18px auto;
+    border-radius: 1em;
+}
+
+div.form-input-container {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - (2 * 16px));
+    margin: 18px auto;
+}
+
+div[inactive-tab] {
+    background-color: #ffffff;
+    border: solid 1px #b1aec0;
+    border-bottom: none;
+    color: #b1aec0;
+}
+
+div[inactive-tab]:hover {
+    background-color: #062863;
+    color: #ffffff;
+}
+
+footer {
+    padding: 32px;
+}
+
+footer p {
+    font-family: "My Futura", sans-serif;
+    text-align: center;
+    color: #0e0303;
+}

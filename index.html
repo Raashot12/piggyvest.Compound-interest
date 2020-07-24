@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mathematical Solution</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="">
+                 <span class="icon-text">GROUP 2</span>
+                </a>
+            </h1>
+        </header>
+        <main>
+            <section class="piggyvest-daily-interest tabs" inactive-section>
+                <h2>Piggyvest Interest Calculator</h2>
+                <form class="piggyvest-daily-interest" action="#">
+                    <div class="form-input-container">
+                        <p class="principal input-section">
+                            <label>
+                                <span>&#8358;</span>
+                                <input
+                                    type="number"
+                                    min="0"
+                                    class="principal"
+                                    placeholder="Regular investment amount in Naira"
+                                    required
+                                />
+                            </label>
+                        </p>
+                        <p class="interval input-section">
+                            <label>
+                                <input
+                                    type="number"
+                                    min="0"
+                                    class="interval"
+                                    placeholder="Interval"
+                                    required
+                                />
+                                <span>days</span>
+                            </label>
+                        </p>
+                        <p class="period input-section">
+                            <label>
+                                <input
+                                    type="number"
+                                    min="0"
+                                    class="period"
+                                    placeholder="Period"
+                                    required
+                                />
+                                <span>days</span>
+                            </label>
+                        </p>
+                    </div>
+                    <p class="button-wrap">
+                        <button
+                            class="piggyvest-daily-interest"
+                            type="button"
+                            disabled
+                            onclick="piggyvestDailyInterestResult()"
+                        >
+                            Run
+                        </button>
+                    </p>
+                    <p class="result"></p>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                &copy;
+                <a href="https://codepen.io/activity/personal">
+                    ISKILU RASHEED AKANNI</a
+                >
+                & GODWIN EGBIKWE
+            </p>
+        </footer>
+        <script src="piggyvest-daily-interest.js"></script>
+    </body>
+</html>
